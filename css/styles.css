@@ -49,3 +49,7 @@ hr.small, hr.large {
 #info {
   z-index: 1000;
 }
+
+input {
+  color: rgba(255, 255, 255, 0.899);
+}
