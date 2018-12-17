@@ -1,0 +1,51 @@
+/* custom CSS rules */
+
+/* display none for layout but be careful of license restrictions */
+
+.mapbox-logo, .leaflet-control-attribution {
+  display: none;
+}
+
+body {
+  Font-Family: 'Open Sans', Sans-Serif;
+  color: white;
+}
+
+h1, h2, h4 {
+  Font-Family: 'Work Sans', Sans-Serif;
+}
+
+a {
+  color: #BDD4DE;
+}
+
+a:hover {
+  color: #3F5765;
+}
+
+.legend {
+  color: black;
+}
+
+.legend-large, .legend-small {
+  border-radius: 50%;
+}
+
+hr.small, hr.large {
+  width: 83px;
+  position: absolute;
+  top: -8px;
+  left: 55px;
+  border: 1px dashed #ccc;
+  /* overwrite assembly.css rule */
+  margin-top: 8px;
+  /* overwrite assembly.css rule */
+}
+
+.death, .month {
+  font-weight: bold;
+}
+
+#info {
+  z-index: 1000;
+}
